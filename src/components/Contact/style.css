@@ -1,0 +1,9 @@
+.contactBtn{
+    color: #671113;
+    border: #671113;
+    display: flex !important;
+    /* margin: 300px; */
+    background-color: white;
+    /* position: absolute; */
+    font-size: 80px;
+  }

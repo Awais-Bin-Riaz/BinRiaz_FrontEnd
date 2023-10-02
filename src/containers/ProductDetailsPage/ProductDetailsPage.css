@@ -1,0 +1,91 @@
+/* ProductDetailsPage.css */
+
+/* Container for the entire page */
+.productDescriptionContainer {
+    padding: 20px;
+  }
+  
+  /* Main component row */
+  .mainComponent {
+    margin-top: 20px;
+  }
+  
+  /* Product picture carousel */
+  /* Adjust the max width to control the image size */
+  .carousel {
+    max-width: 100%;
+  }
+  
+  /* Center the carousel arrows */
+  .carousel .control-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Product details section */
+  .productDetails {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .productTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ratingCount {
+    font-size: 18px;
+    color: #ff9900;
+  }
+  
+  .ratingNumbersReviews {
+    font-size: 14px;
+    color: #878787;
+  }
+  
+  .extraOffer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #388e3c; /* Green color */
+    margin-top: 10px;
+  }
+  
+  .priceContainer {
+    margin-top: 20px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e53935; /* Red color */
+  }
+  
+  .discount {
+    font-size: 18px;
+    color: #388e3c; /* Green color */
+    margin-left: 10px;
+  }
+  
+  /* Available Offers section */
+  .availableOffers {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #212121;
+  }
+  
+  /* Product description section */
+  .descriptionTitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #878787;
+    margin-top: 20px;
+  }
+  
+  .descriptionContent {
+    font-size: 14px;
+    color: #212121;
+  }
+  

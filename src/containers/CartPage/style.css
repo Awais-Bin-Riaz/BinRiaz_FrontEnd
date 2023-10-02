@@ -1,0 +1,14 @@
+.cartContainer{
+    display: flex;
+    max-width: 1260px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+.pdetails{
+    visibility:hidden !important;
+}
+@media  screen and (max-width: 770px) {
+    .pdetails{
+        display: none !important;
+    }
+}

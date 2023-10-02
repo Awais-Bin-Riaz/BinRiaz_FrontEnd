@@ -1,0 +1,49 @@
+*{
+    margin: o;
+    padding: 0;
+    
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+.greetungs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.95);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.greethead{
+font-size: 32px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .5);
+}
+
+@media  screen and (max-width: 620px) {
+    .greethead{
+
+        font-size: 24px;}
+        
+}
